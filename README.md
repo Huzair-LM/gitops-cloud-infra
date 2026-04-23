@@ -53,3 +53,17 @@ Fixing incorrect JSON formatting in Lambda responses
 Handling None values in query parameters safely
 Debugging API Gateway routing issues (404 Not Found)
 Ensuring correct endpoint paths and deployment stages
+
+📈 Future Improvements
+Add more endpoints (e.g., /health, /info)
+Integrate with a database (DynamoDB)
+Add authentication (JWT / Cognito)
+Improve input validation
+Deploy using Infrastructure as Code (Terraform / AWS SAM)
+
+🚀 Deployment
+Create Lambda function
+Attach handler
+Configure API Gateway route (/test)
+Deploy to a stage (e.g., dev)
+Invoke via: https://<api-id>.execute-api.<region>.amazonaws.com/dev/test
